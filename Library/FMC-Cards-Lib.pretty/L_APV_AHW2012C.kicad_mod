@@ -1,14 +1,14 @@
 (footprint "L_APV_AHW2012C"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Inductor, APV, AHW2012C, (https://item.szlcsc.com/datasheet/AHW2012C-R33JTF/7314118.html)")
 	(tags "inductor")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "1b58718b-c85f-47e4-9ccf-54a3c48dda6b")
+		(uuid "a96d279a-6e5f-41b8-8624-4cd487eac104")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_APV_AHW2012C"
 		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "08ad0084-cb53-4eff-8460-e38626fc57af")
+		(uuid "b3256b5f-e226-4e38-9129-0d1e3b0d5a4b")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "84ddfca9-fb68-4cb7-9565-c9027ca4ebb8")
+		(uuid "62922802-134b-4b65-9f1c-82a094e6bc07")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30627e5d-15f5-4cbf-a666-3de5af6f2dfa")
+		(uuid "578eae33-c692-430d-80c0-8dcd9f0ee3a7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.3 -0.975)
 		(end 0.3 -0.975)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "101608af-434e-43dd-a263-4a22b09435d5")
+		(uuid "90b0ae30-3c7b-41ea-a8e6-a5d7fdd172a1")
 	)
 	(fp_line
 		(start -0.3 0.975)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "004a8e23-9f5d-48cd-8080-834535bba60d")
+		(uuid "32bfc520-d149-4c7b-9866-83f44c0b1865")
 	)
 	(fp_rect
 		(start -1.85 -1.15)
@@ -81,7 +82,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c4057368-46fe-422e-95ca-b2ff1c87ed86")
+		(uuid "edfca76f-f621-42af-b668-fd7b55043391")
 	)
 	(fp_rect
 		(start -1.145 -0.865)
@@ -92,16 +93,15 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f1f769b1-043e-4d79-bd1a-06ce0918a56d")
+		(uuid "9a967534-46c5-4f13-9911-c6d0e554e1db")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "d020eb74-b50c-4d34-8823-950a238464c4")
+		(uuid "ce9ad2ed-407a-4468-acdb-54c87983f529")
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
 			)
 		)
 	)
@@ -110,14 +110,14 @@
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "edb42cce-fcb4-43e6-87e5-e65e15da972d")
+		(uuid "cf6c85d0-e9fa-4275-baa7-3280ac79ed24")
 	)
 	(pad "2" smd roundrect
 		(at 0.9 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "9984cd2b-91dc-4f94-b9ab-3834d6699e7a")
+		(uuid "b2b80cbb-e39a-4fe3-bd48-3843be3f8dd3")
 	)
 	(embedded_fonts no)
 	(embedded_files
